@@ -2,8 +2,7 @@
 Class AutomateBot
 {
 
-        protected $_token = "6104894060:AAHdy7nzmH81tMSZ-22RegNajVeiucCxdEs";
-        protected $chatId;
+        protected $_token = "";
         protected $messages;
         protected $url = "https://api.telegram.org/bot";
         function __construct($message,$chatId,){
